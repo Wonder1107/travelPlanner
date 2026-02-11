@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: travel-agent-backend
+Version: 0.1.0
+Summary: Dynamic itinerary engine backend for travel planning MVP
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.111.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: sqlmodel>=0.0.22
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: openai>=1.40.0
+Requires-Dist: chromadb>=0.5.5
+Requires-Dist: langgraph>=0.2.20
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2.0; extra == "dev"

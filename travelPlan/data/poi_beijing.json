@@ -1,0 +1,74 @@
+[
+  {
+    "id": "forbidden_city",
+    "name": "Forbidden City",
+    "category": "museum",
+    "lat": 39.9163,
+    "lng": 116.3972,
+    "avg_visit_minutes": 150,
+    "price_level": "mid",
+    "tags": ["museum", "history", "landmark", "indoor"],
+    "indoor": true,
+    "desc": "Historic palace complex with rich imperial collections."
+  },
+  {
+    "id": "temple_of_heaven",
+    "name": "Temple of Heaven Park",
+    "category": "park",
+    "lat": 39.8822,
+    "lng": 116.4065,
+    "avg_visit_minutes": 120,
+    "price_level": "low",
+    "tags": ["park", "outdoor", "landmark", "walk"],
+    "indoor": false,
+    "desc": "Iconic ritual architecture and pleasant walking routes."
+  },
+  {
+    "id": "798_art_zone",
+    "name": "798 Art Zone",
+    "category": "gallery",
+    "lat": 39.9841,
+    "lng": 116.4970,
+    "avg_visit_minutes": 120,
+    "price_level": "mid",
+    "tags": ["art", "gallery", "coffee", "indoor"],
+    "indoor": true,
+    "desc": "Contemporary art district with galleries, cafés, and design shops."
+  },
+  {
+    "id": "nanluoguxiang",
+    "name": "Nanluoguxiang",
+    "category": "street",
+    "lat": 39.9375,
+    "lng": 116.4039,
+    "avg_visit_minutes": 90,
+    "price_level": "mid",
+    "tags": ["food", "street", "shopping", "outdoor"],
+    "indoor": false,
+    "desc": "Traditional hutong street with snacks, culture, and local stores."
+  },
+  {
+    "id": "national_museum_china",
+    "name": "National Museum of China",
+    "category": "museum",
+    "lat": 39.9051,
+    "lng": 116.4014,
+    "avg_visit_minutes": 140,
+    "price_level": "mid",
+    "tags": ["museum", "history", "indoor", "education"],
+    "indoor": true,
+    "desc": "Large-scale museum showcasing Chinese civilization and modern history."
+  },
+  {
+    "id": "sanlitun_taikooli",
+    "name": "Sanlitun Taikooli",
+    "category": "shopping",
+    "lat": 39.9337,
+    "lng": 116.4568,
+    "avg_visit_minutes": 100,
+    "price_level": "high",
+    "tags": ["shopping", "food", "coffee", "indoor"],
+    "indoor": true,
+    "desc": "Popular retail and dining district with modern indoor/outdoor mix."
+  }
+]

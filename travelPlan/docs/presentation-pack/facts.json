@@ -1,0 +1,77 @@
+{
+  "project": "Dynamic Smart Itinerary Engine MVP",
+  "repo_root": "/Users/chenqimiaobuqimiao/travelPlan",
+  "stack": {
+    "backend": [
+      "Python 3.10+",
+      "FastAPI 0.111.1",
+      "SQLModel 0.0.22",
+      "LangGraph 0.2.20 (optional)"
+    ],
+    "frontend": [
+      "Next.js 14.2.14",
+      "React 18.3.1",
+      "TypeScript 5.6.2"
+    ]
+  },
+  "api_endpoints": [
+    "POST /api/trips",
+    "GET /api/trips/{trip_id}",
+    "POST /api/trips/{trip_id}/events",
+    "GET /api/trips/{trip_id}/logs"
+  ],
+  "dataset": {
+    "poi_count": 30,
+    "categories": {
+      "museum": 6,
+      "district": 5,
+      "walking": 4,
+      "landmark": 3,
+      "temple": 3,
+      "gallery": 2,
+      "shopping": 2,
+      "garden": 1,
+      "culture": 1,
+      "park": 1,
+      "aquarium": 1,
+      "cafe": 1
+    },
+    "indoor_count": 13,
+    "outdoor_count": 17,
+    "price_levels": {
+      "mid": 12,
+      "free": 8,
+      "low": 6,
+      "high": 4
+    }
+  },
+  "evaluation": {
+    "report_generated_at": "2026-02-10T01:42:14",
+    "total_cases": 30,
+    "triggered_cases": 15,
+    "trigger_consistency": 1.0,
+    "replacement_relevance": 1.0,
+    "explanation_completeness": 1.0,
+    "fallback_rate": 1.0,
+    "llm_decision_count": 0
+  },
+  "tests": {
+    "pytest": "9 passed, 2 warnings in 0.66s"
+  },
+  "local_benchmark_testclient_30_runs": {
+    "create_trip_avg_ms": 6.73,
+    "create_trip_p95_ms": 8.84,
+    "event_replan_avg_ms": 8.67,
+    "event_replan_p95_ms": 9.68
+  },
+  "sample_replan_case": {
+    "before": "Power Station of Art",
+    "after": "Sinan Mansions",
+    "decision_source": "fallback_rule",
+    "selected_poi_id": "poi_026",
+    "event_payload": {
+      "crowd_index": 0.95,
+      "queue_minutes": 120
+    }
+  }
+}

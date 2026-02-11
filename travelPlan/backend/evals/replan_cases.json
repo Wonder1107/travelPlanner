@@ -1,0 +1,532 @@
+[
+  {
+    "case_id": "weather_01",
+    "event_type": "weather",
+    "payload": {
+      "condition": "rain"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "weather_02",
+    "event_type": "weather",
+    "payload": {
+      "condition": "heavy_rain"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "weather_03",
+    "event_type": "weather",
+    "payload": {
+      "condition": "thunderstorm"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "weather_04",
+    "event_type": "weather",
+    "payload": {
+      "condition": "rain_showers"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "weather_05",
+    "event_type": "weather",
+    "payload": {
+      "condition": "drizzle"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "weather_06",
+    "event_type": "weather",
+    "payload": {
+      "condition": "rain"
+    },
+    "current_item": {
+      "indoor": true
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "weather_07",
+    "event_type": "weather",
+    "payload": {
+      "condition": "clear"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "weather_08",
+    "event_type": "weather",
+    "payload": {
+      "condition": "cloudy"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "weather_09",
+    "event_type": "weather",
+    "payload": {
+      "condition": "fog"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "weather_10",
+    "event_type": "weather",
+    "payload": {
+      "condition": "snow"
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "museum",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_01",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.92,
+      "queue_minutes": 120
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 120,
+      "crowd_index": 0.92
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_02",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.85,
+      "queue_minutes": 95
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 95,
+      "crowd_index": 0.85
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_03",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.81,
+      "queue_minutes": 150
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 150,
+      "crowd_index": 0.81
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_04",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.99,
+      "queue_minutes": 200
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 200,
+      "crowd_index": 0.99
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_05",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.88,
+      "queue_minutes": 91
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 91,
+      "crowd_index": 0.88
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_06",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.79,
+      "queue_minutes": 130
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 130,
+      "crowd_index": 0.79
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_07",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.9,
+      "queue_minutes": 90
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 90,
+      "crowd_index": 0.9
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_08",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.5,
+      "queue_minutes": 60
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 60,
+      "crowd_index": 0.5
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_09",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.8,
+      "queue_minutes": 120
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 120,
+      "crowd_index": 0.8
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "crowd_10",
+    "event_type": "crowd",
+    "payload": {
+      "crowd_index": 0.95,
+      "queue_minutes": 45
+    },
+    "current_item": {
+      "indoor": false,
+      "queue_minutes": 45,
+      "crowd_index": 0.95
+    },
+    "preferences": [
+      "hidden_gem",
+      "coffee"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_01",
+    "event_type": "user_status",
+    "payload": {
+      "status": "tired",
+      "duration_minutes": 150
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "status_02",
+    "event_type": "user_status",
+    "payload": {
+      "status": "hungry",
+      "duration_minutes": 130
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_03",
+    "event_type": "user_status",
+    "payload": {
+      "status": "tired",
+      "duration_minutes": 180
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "status_04",
+    "event_type": "user_status",
+    "payload": {
+      "status": "hungry",
+      "duration_minutes": 240
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_05",
+    "event_type": "user_status",
+    "payload": {
+      "status": "tired",
+      "duration_minutes": 120
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": true,
+    "expect_indoor_replacement": true
+  },
+  {
+    "case_id": "status_06",
+    "event_type": "user_status",
+    "payload": {
+      "status": "tired",
+      "duration_minutes": 80
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_07",
+    "event_type": "user_status",
+    "payload": {
+      "status": "hungry",
+      "duration_minutes": 100
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_08",
+    "event_type": "user_status",
+    "payload": {
+      "status": "bored",
+      "duration_minutes": 150
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_09",
+    "event_type": "user_status",
+    "payload": {
+      "status": "happy",
+      "duration_minutes": 200
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  },
+  {
+    "case_id": "status_10",
+    "event_type": "user_status",
+    "payload": {
+      "status": "hungry",
+      "duration_minutes": 119
+    },
+    "current_item": {
+      "indoor": false
+    },
+    "preferences": [
+      "coffee",
+      "food",
+      "museum"
+    ],
+    "expected_trigger": false,
+    "expect_indoor_replacement": false
+  }
+]

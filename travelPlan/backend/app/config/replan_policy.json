@@ -1,0 +1,41 @@
+{
+  "default": {
+    "thresholds": {
+      "crowd_index_threshold": 0.8,
+      "queue_minutes_threshold": 90,
+      "tired_duration_threshold": 120,
+      "max_route_minutes": 60,
+      "min_preference_score": 0.0
+    },
+    "ranking_weights": {
+      "route_minutes_weight": 1.0,
+      "preference_score_weight": 1.0
+    }
+  },
+  "shanghai": {
+    "thresholds": {
+      "crowd_index_threshold": 0.82,
+      "queue_minutes_threshold": 95,
+      "tired_duration_threshold": 120,
+      "max_route_minutes": 55,
+      "min_preference_score": 0.0
+    },
+    "ranking_weights": {
+      "route_minutes_weight": 1.1,
+      "preference_score_weight": 1.0
+    }
+  },
+  "beijing": {
+    "thresholds": {
+      "crowd_index_threshold": 0.8,
+      "queue_minutes_threshold": 90,
+      "tired_duration_threshold": 120,
+      "max_route_minutes": 60,
+      "min_preference_score": 0.0
+    },
+    "ranking_weights": {
+      "route_minutes_weight": 1.0,
+      "preference_score_weight": 1.1
+    }
+  }
+}
